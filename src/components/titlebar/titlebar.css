@@ -1,0 +1,92 @@
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.branding {
+  width: 15%;
+}
+
+.website-title {
+  margin-bottom: 2px;
+    margin-left: -22px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #487790;
+}
+
+.main-header nav {
+  display: flex;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: white;
+  border-radius: 5px;
+  top: 100%;
+}
+
+.dropdown-content a {
+  color: #487790;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  color: #487790;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.dropbtn:hover {
+  color: #b63e1e !important;
+}
+
+.dropdown-content a:hover {
+  color: #b63e1e;
+}
+
+
+.dropbtn:focus {
+  outline: none;
+}
+
+.arrow {
+  vertical-align: middle;
+  padding-left: 5px;
+}

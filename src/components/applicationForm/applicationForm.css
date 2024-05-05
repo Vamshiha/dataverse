@@ -1,0 +1,65 @@
+.recruitment-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.label-header {
+  font-size: 14px;
+  line-height: 20px;
+  color: #487790;
+  display: block;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recruitment-form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.recruitment-form input[type="submit"] {
+  cursor: pointer;
+  background-color: #ea5501;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+.recruitment-form p {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 13px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recruitment-form input[type="file"] {
+  padding: 10px;
+  border: 1px dashed black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.text-area {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

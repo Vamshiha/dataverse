@@ -1,0 +1,26 @@
+.platform-container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .platform-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .platform-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .platform-content {
+    background-color: #fff;
+    min-height: 400px;
+    border-radius: 10px; /* Add curved edges */
+    overflow: hidden;
+    /* Add more styles as needed */
+  }
+  

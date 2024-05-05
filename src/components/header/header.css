@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+}
+
+.top-bar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5.2px;
+}
+
+.top_header {
+  margin-left: 50px;
+  color: #efa524;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.social {
+  font-size: 8px;
+  display: inline-block;
+  margin: 0 6px;
+  transition: transform 0.05s;
+  vertical-align: middle;
+}
+
+.social:hover {
+  transform: scale(1.1);
+}
+
+.youtube {
+  color: #c4302b;
+}
+
+.twitter {
+  color: dodgerblue;
+}
+
+.instagram {
+  color: #cd486b;
+}
+
+.facebook {
+  color: #316FF6;
+}
+
+.github {
+  color: #000;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+.right_header {
+  margin-right: 50px;
+}
+
+.nav-link {
+  color: #efa524;
+  font-size: 14px;
+  margin: 0px 12px;
+  text-decoration: none; 
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #B63E1E !important;
+}
+
+
+.separator {
+  border-left: 1px solid #4f4a44;
+    display: inline-block;
+    position: relative;
+}
+

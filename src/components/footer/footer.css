@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+}
+
+.subscription,
+.follow-us {
+  width: 48%;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+
+.follow-us p {
+  display: inline-block;
+  width: 100px;
+  margin: 4px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.footer-title {
+  font-size: 20px;
+  color: #487790;
+}
+
+.footer-text {
+  color: #487790;
+}
+
+.subscribe {
+  padding: 10px 20px;
+  margin: 20px 8px;
+  border: none;
+  background-color: #ea5501;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.follow-us-header {
+    color: #487790;
+}

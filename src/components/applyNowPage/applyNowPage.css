@@ -1,0 +1,9 @@
+.apply-title {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    color: #487790;
+    font-size: 32px;
+}
